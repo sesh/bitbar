@@ -24,3 +24,5 @@ train_times = [
 for train, time in zip(trains, train_times):
     # trains[0]['platform']['direction']['direction_name']
     print('{}: {}m'.format(train['platform']['stop']['location_name'], str(time)))
+    if train == trains[0]:
+        print('---')
