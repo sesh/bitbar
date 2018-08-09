@@ -1,4 +1,4 @@
-#!/Users/brenton/.virtualenvs/django-project/bin/python
+#!/Users/brenton/.virtualenvs/bitbar/bin/python
 # -*- coding: utf-8 -*-
 
 import requests
