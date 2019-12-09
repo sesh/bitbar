@@ -24,6 +24,7 @@ print(melbourne.find('h3').text + ': ' + melbourne.find(attrs={'class': 'precis'
 print('Currently: {}. Max: {}'.format(temp, max_temp))
 print(melbourne.find(attrs={'class': 'wind'}).text)
 print('---')
+print('Home Temperature|href=http://home-temperature.glitch.me/')
 print('BOM Forecast|href=http://www.bom.gov.au/vic/forecasts/melbourne.shtml')
 print('BOM Radar|href=http://www.bom.gov.au/products/IDR023.loop.shtml')
 print('BayWX Chart|href=http://www.baywx.com.au/melbtemp2.html')
